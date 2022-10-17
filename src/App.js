@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import UserProfile from "./Components/UserProfile";
+import OnlieneConsltancy from "./Components/OnlieneConsltancy";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/userprofile" element={<UserProfile/>}/>
+      <Route path="/onlieneconsltancy" element={<OnlieneConsltancy/>}/>
     </Routes>
    </Router>
     <Footer/>
