@@ -5,7 +5,7 @@ import YtIcon from '../Assets/image/YtIcon.jpg';
 
 export default function Footer() {
   return (
-    <div>
+    <div className='mt-14'>
         <section>
             <div class="hendle flex items-center justify-start mx-4 space-x-4">
                 <div>Follow DigitalCare</div>
