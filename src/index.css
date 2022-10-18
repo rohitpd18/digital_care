@@ -14,3 +14,7 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-btn-lg{
+  @apply md:text-2xl md:mt-10 md:py-3;
+}

@@ -5,8 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color : {
-        'primary-color':'#F74E05',
+      colors : {
+        'primaryColor':'#F74E05',
+      },
+      backgroundImage: {
+        'Banner_image': "url('/src/Assets/image/Banner_image.jpg')",
+        'Banner_image2': "url('/src/Assets/image/Banner_image2.png')",
       }
     },
   },
