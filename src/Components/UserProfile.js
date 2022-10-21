@@ -36,7 +36,7 @@ export default function UserProfile() {
           <h1 className="text-center font-bold text-3xl mb-1">
             Health Details
           </h1>
-          <div className="bg-primeryColor h-1 w-40 m-auto rounded-full "></div>
+          <div className="bg-primaryColor h-1 w-40 m-auto rounded-full "></div>
         </div>
         <div className="lg:my-20">
           <div className="text-lg">Rating: *****</div>
@@ -46,13 +46,13 @@ export default function UserProfile() {
         <div className="goThrough mt-10">
           <h1 className="font-bold text-2xl lg:text-3xl lg:mb-8">Go Through:</h1>
           <div className="mt-4 text space-y-3">
-            <button className="rounded-full block bg-primeryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
+            <button className="rounded-full block bg-primaryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
               Medical Report
             </button>
-            <button className="rounded-full block bg-primeryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
+            <button className="rounded-full block bg-primaryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
               Book Appoinment
             </button>
-            <button className="rounded-full block bg-primeryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
+            <button className="rounded-full block bg-primaryColor text-white px-4 py-1 font-semibold text-lg lg:text-xl">
               Pyment History
             </button>
           </div>

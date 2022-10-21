@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import UserProfile from "./Components/UserProfile";
 import OnlieneConsltancy from "./Components/OnlieneConsltancy";
+import BookDoctor from "./Components/BookDoctor";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/userprofile" element={<UserProfile/>}/>
       <Route path="/onlieneconsltancy" element={<OnlieneConsltancy/>}/>
+      <Route path="/bookdoctor" element={<BookDoctor/>}/>
     </Routes>
    </Router>
     <Footer/>
