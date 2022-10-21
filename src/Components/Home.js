@@ -1,21 +1,12 @@
 import React from "react";
-<<<<<<< HEAD
-// import Banner_image2 from '../Assets/image/Banner_image2.png';
 import book from '../Assets/image/Banner_image2.jpg';
 
-=======
-// import banner from "../Assets/image/Banner_image.jpg";
-// import inside from "../Assets/image/Banner_image2.png";
+
 import book from "../Assets/image/Book_appoinment.png";
->>>>>>> 7efa25d40160288ed3e8b34ecf3f93e91bacce67
 export default function Home() {
   return (
     <>
     <div>
-<<<<<<< HEAD
-      <div>
-=======
->>>>>>> 7efa25d40160288ed3e8b34ecf3f93e91bacce67
       {/* First banner image */}
       <div className="bg-Banner_image  bg-no-repeat w-[100vw] h-64 bg-cover -z-10  lg:h-[80vh]">
         {/* Second banner image */}
@@ -97,12 +88,8 @@ export default function Home() {
             
           
         </div>
-<<<<<<< HEAD
-      </div>
-    </div>
-=======
+
       </div> 
     </>
->>>>>>> 7efa25d40160288ed3e8b34ecf3f93e91bacce67
   );
 }
