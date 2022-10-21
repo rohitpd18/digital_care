@@ -1,8 +1,6 @@
 import React from "react";
-import book from '../Assets/image/Banner_image2.jpg';
-
-
 import book from "../Assets/image/Book_appoinment.png";
+
 export default function Home() {
   return (
     <>
